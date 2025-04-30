@@ -49,6 +49,16 @@ body {
   width: 100%;
 }
 
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+input[type="file"] {
+  margin-top: 20px;
+}
+
 .generate-btn {
   margin-top: 1rem;
   background-color: #e5e7eb;

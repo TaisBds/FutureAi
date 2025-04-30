@@ -14,9 +14,22 @@
   <form (submit)="onSubmit()" class="form">
     <label for="file-upload" class="upload-box">
       <img src="https://storage.googleapis.com/a1aa/image/e8b09ebe-b08a-452e-3929-7a16f7f7ba0b.jpg" alt="Upload Icon" width="40" height="40" />
+      <br><br><br>
       <span>Drop a file<br>or<br>Select a file</span>
-      <input id="file-upload" type="file" hidden />
+      <input 
+        id="file-upload" 
+        type="file" 
+        (change)="onFileSelected($event)" 
+        hidden 
+      />
     </label>
-    <button type="submit" class="generate-btn" disabled>Generate</button>
+
+    <button 
+      type="submit" 
+      class="generate-btn" 
+      [disabled]="!selectedFile"
+    >
+      Generate
+    </button>
   </form>
 </main>

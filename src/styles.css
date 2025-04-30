@@ -1,27 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
-/* styles.css ou styles.scss (geral do Angular) */
+/* Importação da fonte */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
-.font-orbitron {
-  font-family: 'Orbitron', sans-serif;
-}
+/* Tailwind deve vir em seguida */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-
+/* Definição global para fontes */
 .font-orbitron {
   font-family: 'Orbitron', sans-serif;
 }
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-
-.font-orbitron {
-  font-family: 'Orbitron', sans-serif;
-}
-
