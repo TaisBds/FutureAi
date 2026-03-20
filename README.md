@@ -1,59 +1,92 @@
-# ProjetoFutureAiLab
+# 🚀 Future AI Lab
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.8.
+Este projeto foi desenvolvido como parte de uma iniciativa do **Porto Digital**, em parceria com a **Universidade Católica**, com foco no desenvolvimento de uma aplicação web utilizando tecnologias modernas de **Front-end e Back-end**.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🎯 Objetivo do Projeto
+
+O objetivo do projeto é criar uma aplicação web moderna, com interface amigável e estrutura escalável, explorando conceitos reais utilizados no mercado.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- 🅰️ Angular  
+- 🟦 TypeScript  
+- 🎨 CSS  
+- 🌐 HTML  
+- 🟨 JavaScript  
+
+---
+
+## 📂 Estrutura do Projeto
+
+- `src/` → Código principal da aplicação  
+- `public/` → Arquivos públicos  
+- `.vscode/` → Configurações do ambiente  
+- `angular.json` → Configuração do Angular  
+- `package.json` → Dependências do projeto  
+
+---
+
+## 🚀 Funcionalidades
+
+- 🎨 Interface moderna e responsiva  
+- 🔄 Atualização dinâmica da aplicação  
+- 🧩 Componentização com Angular  
+- 📁 Organização modular do projeto  
+
+---
+
+## ▶️ Como Executar o Projeto
+
+### 📌 Pré-requisitos
+- Node.js instalado  
+- Angular CLI instalado  
+
+### ▶️ Passos
 
 ```bash
+npm install
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Acesse no navegador:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```
+http://localhost:4200
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 🧠 Conceitos Aplicados
 
-## Building
+Durante o desenvolvimento foram trabalhados:
 
-To build the project run:
+- ✔️ Componentes em Angular  
+- ✔️ Organização de projeto  
+- ✔️ Boas práticas de desenvolvimento  
+- ✔️ Estruturação de aplicações web  
+- ✔️ Integração entre front-end e back-end  
 
-```bash
-ng build
-```
+---
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 📈 Status do Projeto
 
-## Running unit tests
+📌 Em desenvolvimento — melhorias e novas funcionalidades podem ser adicionadas.
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+---
 
-```bash
-ng test
-```
+## 💡 Possíveis Melhorias
 
-## Running end-to-end tests
+- Integração completa com back-end  
+- Implementação de autenticação  
+- Melhorias na interface (UI/UX)  
+- Otimização de performance  
 
-For end-to-end (e2e) testing, run:
+---
 
-```bash
-ng e2e
-```
+## 👩‍💻 Autora
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+**Tais Barbosa dos Santos e Squad 11**
